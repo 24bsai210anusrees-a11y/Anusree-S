@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hello Section -->
+  <header class="card hero">
+    <h1>Hello 👋</h1>
+    <p class="tagline">I am Anusree S — a passionate learner.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </header>
+
+  <!-- About Section -->
+  <section class="card" id="about">
+    <h2>About Me</h2>
+    <div class="about-wrap">
+      <img id="profile-pic" src="https://i.ibb.co/9kvnZ41s/profile.jpg" alt="Anusree S Profile">
+      <p class="about-line">I love technology and building simple, useful things.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="card" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-box">
+        <h3>Project 1</h3>
+        <p>Learner’s Sign Up</p>
+      </div>
+      <div class="project-box">
+        <h3>Project 2</h3>
+        <p>Smart Irrigation System</p>
+      </div>
+      <div class="project-box">
+        <h3>Project 3</h3>
+        <p>My Portfolio</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="card" id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form" novalidate>
+      <label class="field-box">
+        <span>NAME</span>
+        <input type="text" id="name" value="Anusree S">
+      </label>
+      <label class="field-box">
+        <span>EMAIL</span>
+        <input type="email" id="email" value="anusreesenthil006@gmail.com">
+      </label>
+      <label class="field-box">
+        <span>CONTACT NUMBER</span>
+        <input type="tel" id="phone" value="7904951841">
+      </label>
+      <label class="field-box">
+        <span>MESSAGE</span>
+        <textarea id="message" rows="4" placeholder="Type your message..."></textarea>
+      </label>
+      <button type="submit" class="btn send">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="card footer">
+    <p>© <span id="year"></span> Anusree S</p>
+  </footer>
+</body>
+</html>
