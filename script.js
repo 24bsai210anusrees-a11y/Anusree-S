@@ -16,7 +16,7 @@ document.querySelector(".contact-form").addEventListener("submit", e => {
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
   const phone = document.getElementById("phone").value;
-  alert(`Thanks ${name}!\nEmail: ${email}\nPhone: ${phone}`);
+  alert(Thanks ${name}!\nEmail: ${email}\nPhone: ${phone});
 });
 
 // profile pic fallback if link fails
